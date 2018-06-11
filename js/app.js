@@ -1,10 +1,14 @@
-$(function () {
-    new WOW().init();
-});
 (function($) {
     'use strict';
     $(document).ready(function(){
-        $('.loader').fadeOut(2000);
+        var wow = new WOW();
+        wow.init();
+        setTimeout(() => {
+            $('.loader').fadeOut(2000);
+            $('html, body').animate({
+                scrollTop: $(".masthead").offset().top
+            }, 2000);
+        }, 3000);
     });
 
     $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
