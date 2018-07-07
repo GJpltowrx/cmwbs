@@ -8,6 +8,7 @@
             $('html, body').animate({
                 scrollTop: $(".masthead").offset().top
             }, 2000);
+            $('#id01').hide();
         }, 3000);
     });
 
@@ -45,7 +46,9 @@
     $('.portfolio-modal').on('hidden.bs.modal', function(e) {
         $(".navbar").removeClass("d-none");
     })
-
+    $('.nav-link, .js-scroll-trigger, .download').click(function(e){
+        $('#id01').show();
+    });
 })(jQuery);
 $(function() {
     $("#gallery-slider").owlCarousel({
