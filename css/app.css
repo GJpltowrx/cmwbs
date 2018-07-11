@@ -289,9 +289,9 @@
         padding-top: 150px;
         padding-bottom: 100px;
         color: white;
-        background: #087cf9;
-        background: -webkit-linear-gradient(to left, #087cf9, #37dbf5);
-        background: linear-gradient(to left, #087cf9, #37dbf5);
+        background: #1c2227;
+        /* background: -webkit-linear-gradient(to left, #087cf9, #37dbf5);
+        background: linear-gradient(to left, #087cf9, #37dbf5); */
     }
 
     section.masthead .header-content {
