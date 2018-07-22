@@ -135,6 +135,11 @@
         background-color: #37dbf5;
         color: #fff;
     }
+    .btn-green {
+        border-color: #8BC442;
+        background-color: #8BC442;
+        color: #fff;
+    }
 
     .btn-white:hover,
     .btn-white:focus {
@@ -182,7 +187,6 @@
         font-size: 12px;
         right: 0;
         padding: 13px;
-        text-transform: uppercase;
         color: white;
         border: 0;
         background-color: #37dbf5;
@@ -208,8 +212,8 @@
             -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
             transition: padding-top 0.3s, padding-bottom 0.3s;
             border: none;
-            background-color: #303030;
-            opacity: 0.9;
+            background-color: transparent;
+            
         }
         #mainNav .navbar-brand {
             font-size: 2.15em;
@@ -219,14 +223,14 @@
         }
         #mainNav .navbar-nav .nav-item .nav-link {
             padding: 1.1em 1em !important;
-            font-family: 'Roboto', sans-serif;
+            font-family: 'Montserrat', sans-serif;
         }
         #mainNav.navbar-shrink {
             padding-top: 0;
             padding-bottom: 0;
             background-color: #303030;
             box-shadow: 0px 1px 5px 1px rgba(179, 174, 174, 0.5);
-            opacity: 0.9;
+            opacity: 0.75;
         }
         
         #mainNav.navbar-shrink .navbar-brand {
@@ -267,7 +271,7 @@
     section .heading .bord-bot {
         width: 80px;
         margin: 0 auto;
-        border-bottom: 7px solid #37dbf5;
+        border-bottom: 7px solid #8BC442;
     }
 
     section .heading p {
@@ -299,10 +303,9 @@
         text-align: center;
     }
     .tersmpageMainContentBackground{
-        color: white;
-        background: #087cf9;
-        background: -webkit-linear-gradient(to left, #087cf9, #37dbf5);
-        background: linear-gradient(to left, #087cf9, #37dbf5) !important;
+        color: #423434;
+        background: -webkit-linear-gradient(to left, #8BC442, rgb(202, 235, 160));
+        background: linear-gradient(to left,  #8BC442, rgb(202, 235, 160)) !important;
     }
     .tersmpageMainContent {
         padding-top: 150px;
@@ -341,7 +344,26 @@
         width: 100%;
         margin-top: -50%;
     }
-
+    .video-overlay-container {
+        position: absolute;
+        width: 600px;
+        height: 450px; 
+        left: 30%;
+        top: 30%;
+    }
+    .video-overlay-para1 {
+        font-size: 65px;
+        letter-spacing: -1.7px;
+        line-height: 1em;
+        font-weight: bold
+    }
+    .video-overlay-para2 {
+        font-size: 80px;
+        letter-spacing: -1.7px;
+        line-height: 1em;
+        font-weight: bold;
+        color:#8BC442
+    }
     @media (min-width: 992px) {
         section.masthead {
             height: 100vh;
@@ -415,7 +437,7 @@
         line-height: 38px;
         text-align: center;
         box-shadow: 0px 0px 14px -1px rgba(101, 99, 99, 0.35);
-        color: #37dbf5;
+        color: #8BC442;
     }
 
     .app-about .app-about-cont p {
@@ -513,7 +535,7 @@
 
     .our-process .service-desc-cont i {
         font-size: 25px;
-        color: #37dbf5;
+        color: #8BC442;
         margin-bottom: 10px;
     }
 
@@ -537,7 +559,7 @@
     }
 
     .faq .card .card-header {
-        background: #37dbf5;
+        background: #8BC442;
     }
 
     .faq .card .card-header h5 button {
@@ -595,7 +617,7 @@
 ======================================================*/
 
     .download-app {
-        background: #37dbf5;
+        background: #8BC442;
     }
 
     .download-app h1,

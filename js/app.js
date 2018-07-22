@@ -3,13 +3,15 @@
     $(document).ready(function(){
         var wow = new WOW();
         wow.init();
-        setTimeout(() => {
-            $('.loader').fadeOut(2000);
-            $('html, body').animate({
-                scrollTop: $(".masthead").offset().top
-            }, 2000);
-            $('#id01').hide();
-        }, 3000);
+        if($('.loader').length){
+            setTimeout(() => {
+                $('.loader').fadeOut(2000);
+                $('html, body').animate({
+                    scrollTop: $(".masthead").offset().top
+                }, 2000);
+                $('#id01').hide();
+            }, 3000);
+        }
     });
 
     $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
