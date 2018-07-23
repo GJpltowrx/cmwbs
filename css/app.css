@@ -364,6 +364,32 @@
         font-weight: bold;
         color:#8BC442
     }
+    .vodeo-overlay-para3{
+        font-size: 30px;
+    }
+    .main-video {
+        width: 100%;
+    }
+
+    @media only screen and (max-width: 600px) {
+        .video-overlay-container {
+            width: 100%;
+            left: 10%;
+            top: 20%;
+        }
+        .video-overlay-para1 {
+            font-size: 35px;
+            line-height: 0.5em;
+        }
+        .video-overlay-para2 {
+            font-size: 40px;
+            line-height: 0.5em;
+        }
+        .vodeo-overlay-para3{
+            font-size: 30px;
+            line-height: 0.5em;
+        }
+    }
     @media (min-width: 992px) {
         section.masthead {
             height: 100vh;
